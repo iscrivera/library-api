@@ -14,6 +14,13 @@
 
 Library-API contains REST services to use in application demo. 
 
+### Clone the repo
+
+```shell
+git clone https://github.com/iscrivera/library-api.git
+cd library-api
+```
+
 ## Postgres Database Installation
 
 You can use the docke-compose.yml to create a database container with docker.
