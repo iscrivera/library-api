@@ -21,7 +21,7 @@ export class LoansService {
             }
         );
         if (null != loans && loans.length >= 3) {
-            return "No es posible solicitar mas de tres préstamos al mismo tiempo.";
+            return {error:"Exceeded Limit. Just can to have 3 loans at same time."};
         }
 
         const newLoan = new Loan();

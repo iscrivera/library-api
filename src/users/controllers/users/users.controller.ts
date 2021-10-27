@@ -19,4 +19,9 @@ export class UsersController {
         return this.usersService.create(body);
     }
 
+    @Post('/login')
+    login(@Body() body: User) {
+        return this.usersService.login(body);
+    }
+
 }
